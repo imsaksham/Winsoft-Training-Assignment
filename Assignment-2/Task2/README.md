@@ -22,27 +22,6 @@
     <li>An integrated development environment (IDE) like IntelliJ or Eclipse</li>
 </ul>
 
-<h2>Project Structure</h2>
-
-<p>Describe the project structure here.</p>
-
-<h2>Setup</h2>
-
-<ol>
-    <li><strong>Clone the Repository:</strong></li>
-    <pre><code>git clone &lt;repository-url&gt;</code></pre>
-
-    <li><strong>Open in IDE:</strong></li>
-    <p>Open the project in your preferred IDE.</p>
-
-    <li><strong>Run the Application:</strong></li>
-    <p>Run the <code>StudentManagementApplication</code> class.</p>
-</ol>
-
-<h2>Running the Application</h2>
-
-<p>Explain how to run the application and any additional details.</p>
-
 <h2>API Endpoints</h2>
 
 <ul>
@@ -72,8 +51,3 @@
         <li>Method: <code>DELETE</code></li>
     </ul>
 </ul>
-
-<h2>Sample Requests</h2>
-
-<p>Provide sample requests for each API endpoint.</p>
-
