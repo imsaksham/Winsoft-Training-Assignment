@@ -25,7 +25,7 @@
 </ul>
 <li>Deploy the application to your servlet container. For example, if you are using Apache Tomcat, you can copy the WAR file to the <code>webapps</code> directory.</li>
   <li>Start your servlet container.</li>
-  <li>Access the application by navigating to <code>http://localhost:8080/CalculatorServlet</code> (replace 8080 with the port number of your servlet container).</li>
+  <li>Access the application by navigating to <code>http://localhost:8080/CalculatorServlet</code>.</li>
 </ol>
 <h2>Usage</h2>
 <ol>
