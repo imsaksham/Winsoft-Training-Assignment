@@ -1,4 +1,5 @@
-<h1>Authentication Filter and Logout Servlet</h1>
+<body>
+    <h1>Authentication Filter and Logout Servlet</h1>
 
     <h2>Overview</h2>
 
@@ -71,3 +72,4 @@ public class SecureLogoutServlet extends HttpServlet {
     <p>In this example, the `SecureLogoutServlet` is designed to be secure, checking if there is an existing session before
         attempting to perform the logout. If a session exists, it removes the "username" attribute, invalidates the
         session, and redirects the user to the "login.jsp" page.</p>
+</body>
