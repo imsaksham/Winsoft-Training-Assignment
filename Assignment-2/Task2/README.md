@@ -1,53 +1,39 @@
-<h1>Student Management Application</h1>
+# Student Management Application
 
-<p>This is a simple CRUD (Create, Read, Update, Delete) application for managing student details.</p>
+This is a simple CRUD (Create, Read, Update, Delete) application for managing student details.
 
-<h2>Overview</h2>
+## Overview
 
-<p>The application provides basic operations to manipulate student information, including creating, reading, updating, and deleting student records.</p>
+The application provides basic operations to manipulate student information, including creating, reading, updating, and deleting student records.
 
-<h2>Technologies Used</h2>
+## Technologies Used
 
-<ul>
-    <li>Java</li>
-    <li>Spring Boot</li>
-</ul>
+- Java
+- Spring Boot
 
-<h2>Prerequisites</h2>
+## Prerequisites
 
-<p>Before running the application, make sure you have the following:</p>
+Before running the application, make sure you have the following:
 
-<ul>
-    <li>Java Development Kit (JDK) installed</li>
-    <li>An integrated development environment (IDE) like IntelliJ or Eclipse</li>
-</ul>
+- Java Development Kit (JDK) installed
+- An integrated development environment (IDE) like IntelliJ or Eclipse
 
-<h2>API Endpoints</h2>
+## API Endpoints
 
-<ul>
-    <li><strong>Create Student:</strong></li>
-    <ul>
-        <li>Endpoint: <code>/students</code></li>
-        <li>Method: <code>POST</code></li>
-        <li>Request Body: JSON representing student details</li>
-    </ul>
+- **Create Student:**
+  - Endpoint: `/students`
+  - Method: `POST`
+  - Request Body: JSON representing student details
 
-    <li><strong>Get Student by Roll:</strong></li>
-    <ul>
-        <li>Endpoint: <code>/students/{roll}</code></li>
-        <li>Method: <code>GET</code></li>
-    </ul>
+- **Get Student by Roll:**
+  - Endpoint: `/students/{roll}`
+  - Method: `GET`
 
-    <li><strong>Update Student:</strong></li>
-    <ul>
-        <li>Endpoint: <code>/students</code></li>
-        <li>Method: <code>PUT</code></li>
-        <li>Request Body: JSON representing updated student details</li>
-    </ul>
+- **Update Student:**
+  - Endpoint: `/students`
+  - Method: `PUT`
+  - Request Body: JSON representing updated student details
 
-    <li><strong>Delete Student:</strong></li>
-    <ul>
-        <li>Endpoint: <code>/students/{roll}</code></li>
-        <li>Method: <code>DELETE</code></li>
-    </ul>
-</ul>
+- **Delete Student:**
+  - Endpoint: `/students/{roll}`
+  - Method: `DELETE`
