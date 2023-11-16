@@ -1,5 +1,4 @@
-<body>
-    <h1>Authentication Filter and Logout Servlet</h1>
+<h1>Authentication Filter and Logout Servlet</h1>
 
     <h2>Overview</h2>
 
@@ -49,27 +48,3 @@
         invalidates the user session, removes the "username" attribute, and redirects the user to the "login.jsp" page.
     </p>
 
-    <h2>Example</h2>
-
-    <pre><code>
-// Example usage of the Logout servlet
-
-@WebServlet("/SecureLogout")
-public class SecureLogoutServlet extends HttpServlet {
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession(false);
-
-        if (session != null) {
-            session.removeAttribute("username");
-            session.invalidate();
-        }
-
-        response.sendRedirect("login.jsp");
-    }
-}
-    </code></pre>
-
-    <p>In this example, the `SecureLogoutServlet` is designed to be secure, checking if there is an existing session before
-        attempting to perform the logout. If a session exists, it removes the "username" attribute, invalidates the
-        session, and redirects the user to the "login.jsp" page.</p>
-</body>
